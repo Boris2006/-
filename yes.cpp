@@ -33,7 +33,7 @@ long long len(string a){
 string translation(long long e){
     string b;
     long long c;
-while (e != 1 or e != 0){
+while (e != 1 or e == 0){
         c = e % 2;
         e = e / 2;
         if (c == 1){
